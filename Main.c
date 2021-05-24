@@ -15,7 +15,7 @@ int main(int jmlhkata, char *kata[])
     strcpy(passinput, kata[2]);
 
     FILE *fpw; 
-    if((fpw=fopen("DataBase/login.bin", "rb")) == NULL){
+    if((fpw=fopen("database/login.bin", "rb")) == NULL){
         printf("Gagal");
         return EXIT_FAILURE;
     }
